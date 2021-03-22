@@ -5,6 +5,7 @@
     <groupId>de.xxschrandxx</groupId>
     <artifactId>spigotplugins-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <relativePath>../SpigotPlugins/pom.xml</relativePath>
   </parent>
 
   <name>AsyncWorldManagerGUI</name>
@@ -53,6 +54,7 @@
             </goals>
             <inherited>true</inherited>
             <configuration>
+              <createDependencyReducedPom>false</createDependencyReducedPom>
               <relocations>
                 <relocation>
                   <pattern>org.bstats</pattern>
